@@ -1,0 +1,658 @@
+.WhyCRAPPO {
+    .numbers {
+        margin-top: 257px;
+        .cards {
+            img:hover {
+                transform: rotate(360deg);
+                transition: 1s;
+            }
+            .cards__text {
+                h4 {
+                    margin-bottom: 4px;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 150%;
+                    color: #ffffff;
+                }
+                P {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    letter-spacing: 0.01em;
+                    color: #e0e0e0;
+                }
+            }
+            display: flex;
+            align-items: center;
+            column-gap: 24px;
+        }
+        @include d-flex;
+    }
+}
+.content {
+    .content__Illustrations {
+        img {
+            width: 650px;
+            height: 473px;
+            object-fit: contain;
+        }
+    }
+    .content__text {
+        h5 {
+            width: 480px;
+            height: 119.95px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 150%;
+            color: #ffffff;
+        }
+        p {
+            width: 408px;
+            height: 83.96px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0.01em;
+            color: #e0e0e0;
+            margin-top: 24px;
+        }
+        .btn {
+            @include btn;
+        }
+        margin-left: 70px;
+    }
+    @include d-flex;
+}
+.content__bottom {
+    h3 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 150%;
+        text-align: center;
+        color: #ffffff;
+    }
+    h6 {
+        width: 622px;
+        height: 54px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        color: #e0e0e0;
+        margin: 24px auto;
+        margin-bottom: 140px;
+    }
+    margin-top: 200px;
+}
+// WhyCRAPPO end
+
+// 
+.Calculate {
+    margin-bottom: 100px;
+    width: 700px;
+    height: 300px;
+    background: #ffffff;
+    border-radius: 16px;
+    filter: drop-shadow(0px 20px 200px rgba(57, 23, 119, 0.05));
+    position: relative;
+    bottom: 120px;
+    left: 195px;
+    .Calculate__form {
+      @include d-flex(space-around);
+      padding-top: 50px;
+      &-input {
+        width: 250px;
+        border: none;
+       border-bottom:1px solid #E0E0E0;
+       padding-bottom: 10px;
+       font-size: 16px;
+      }
+      &-select {
+        border-bottom:1px solid #E0E0E0;
+        padding-bottom: 10px;
+        font-size: 16px;
+        width: 150px;
+      }
+    }
+  }
+  .Calculate__form--button {
+    @include btn;
+    width: 147px;
+    height: 59px;
+    .Calculate__text {
+      font-family: "Rubik";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 150%;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+  
+  .Calculate__bottom {
+    margin: 60px 8px;
+    &-title {
+        margin-left: 15px;
+      font-family: "Rubik";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 11px;
+      line-height: 150%;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #3671e9;
+    }
+    &-subtitle {
+      margin-left: 15px;
+      font-family: "Rubik";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 150%;
+      letter-spacing: 0.04em;
+      color: #0d0d2b;
+      &-text {
+        color: #3671e9;
+      }
+      &-textera {
+        margin-left: 15px;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 28px;
+        letter-spacing: 0.01em;
+        color: #828282;
+      }
+    }
+  }
+  .bacround__color{
+    background: linear-gradient(180deg, #F8F9FB 0%, #FAFBFF 100%);
+  }
+// calculate and
+
+//
+.section{
+    h5{
+        width: 741px;
+        height: 120px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 150%;
+        text-align: center;
+        color: #0D0D2B;
+        margin: 0 auto;  
+    }
+    .Cryptocurrencies-section{
+        .box:hover{
+            img{
+                transform: rotateY(360deg);
+                transition: 1s;
+            }
+
+            .box-text{
+            color: #ffffff;
+          }
+        
+            .title-smal{
+                color: #ffffff;
+            }
+            .bnt__icon{
+                background-color: #FAFBFF;
+                color: #e0e0e0;
+            }
+
+        }
+       
+    .box:hover{
+        background: #2B076E;
+        color: #FFFFFF;
+        transform: scale(1.1);
+        transition: 0.6s;
+        box-shadow: 0px 40px 40px #391777;
+    }
+        @include d-flex;
+        .box-title{
+           
+            .title-smal{
+              
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 150%;
+                /* identical to box height, or 48px */
+                
+                text-align: center;
+                
+                /* Neutral / White */
+                
+                color: #0f0e0e;
+                
+            }
+            margin-left: 118px;
+            display: flex;
+            column-gap: 8px;
+            
+        
+        }
+    }
+}
+.top-title{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #BDBDBD;
+    
+    opacity: 0.7;
+}
+.box-text{
+    width: 322px;
+    height: 56px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #828282;
+}
+.box{
+   
+    text-align: center;
+    padding: 50px 0px;
+    border-radius: 10px;
+    width: 340px;
+    height: 276px;
+    background: #FFFFFF;
+    mix-blend-mode: overlay;
+    
+    border-radius: 16px;
+    .btn2{        
+        .bnt__icon{
+            margin-left: 24px;
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150%;
+            text-align: center;
+            color: #FFFFFF;
+            
+            
+        }
+        @include btn2;
+        margin-top: 25px;
+        margin-left: 70px;
+    }
+}
+.btn__none{
+    display: none;
+}
+.bnt__icon2{
+    margin-top: 25px;
+}
+// ===================
+
+// =========================
+.section__market{
+    background-color: #2B076E;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    .market__title{
+        margin: 0 auto;
+        width: 750px;
+        text-align: center;
+        margin-bottom: 30px;
+        .title{
+            width: 758px;
+            height: 120px;
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 150%;
+            text-align: center;
+            color: #FFFFFF;
+            
+        }
+    }
+
+}
+
+.invest__box{
+    @include d-flex;
+    margin: 70px 0;
+    .invest__box__left{
+        .title{
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 150%;
+            color: #FFFFFF;
+        }
+        width: 35%;
+        .invest__text{
+            width: 408px;
+            height: 56px;
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #E0E0E0;
+            letter-spacing: 0.01em;
+            margin-bottom: 30px;
+        }
+        .btn{
+            @include btn;
+            color: #FFFFFF;
+        }
+    }
+    .invest__box__right{
+        .bitcoin__box{
+            .bitcoin__box__right__number{
+                color: #F8F9FB;
+            }
+            @include d-flex;
+        }
+        .bitcoin__box__left{
+            .style{
+                margin-bottom: 25px;
+                color: #F8F9FB;
+            }
+            display: flex;
+            justify-content: flex-start;
+            align-items: end;
+            
+        }
+        position: relative;
+        width: 500px;   
+        margin-left: -50px;
+        background-color:  #35068C;
+        padding: 20px;
+        border-radius: 15px;
+        img{
+            margin-left: 0px;
+        }
+    }
+}
+
+.left__center{
+    .trade__text{
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #F2F2F2;
+    }
+    .title_numbers1{
+        font-size: 27px;
+        line-height: 54px;
+        margin-bottom: 8px;
+        color: #ffffff; 
+    }
+    line-height: 2px;
+    span{
+        margin-top: -25px;
+    }
+}
+.bitcoin__box{
+    
+    margin-bottom: 30px;
+}
+.bitcoin__box__left{
+    align-items: normal ;
+    img{
+        margin-right: 10px;
+    }
+    .left__center{
+        margin-right: 10px;
+        span{
+            color: #fff;
+        }
+    }
+}
+// ==========
+.trade__lft {
+    .position{
+        margin-top: 16px;
+    }
+    .title-left{
+        font-size: 24px;
+        margin-bottom: 5px;
+        color: #FFFFFF;
+    }
+    position: absolute;
+    background-color: #491F98;
+    padding: 10px;
+    border-radius: 10px;
+    bottom: -100px;
+    left: 50px;
+    width: 150px;
+}
+.trade__right{
+    .trade__text{
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 5px;
+        
+    }
+    .title-right{
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #FFFFFF;
+        
+    }
+    position: absolute;
+    background-color: #491F98;
+    right: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    bottom: -40px;
+
+}
+// ================
+
+.statistic__box{
+    @include d-flex;
+    margin: 170px 0;
+    .statistic__left{
+        margin-left: -60px;
+        margin-right: 60px;
+    }
+    .statistic__right{
+        .title__right--text{
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 150%;
+            color: #FFFFFF;
+        }
+        .statistic__text{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #E0E0E0;
+            margin-bottom: 30px;
+        }
+        .btn{
+            @include btn;
+            color: #FFFFFF;
+        }
+    }
+}
+// ================
+.Profit_section{
+    .btn{
+        @include btn;
+        color: #FAFBFF;
+    }
+    &-bottom{
+        margin-top: 24px;
+        width: 408px;
+        height: 84px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #E0E0E0;
+    }
+    &-text{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+    @include d-flex;
+}
+.box__left{
+    width: 40%;
+    
+}
+.box__right{
+    width: 50%;
+    background-color: 
+    #35068C;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.box__wrapper {
+    p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #c2bebe;        
+    }
+    .wrapper__item{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .item__width{
+        width: 90px
+    }
+    @include d-flex;
+    margin-bottom: 20px;
+    padding: 15px;
+    .wrapper__img{
+        margin-right: 20px;
+    }
+}
+.wrapper__name{
+    h4{
+        font-size: 20px;
+        color: #fff;
+    }
+}
+
+.wrapper__item--width{
+    width: 90px;
+}
+.wrapper__item--color2{
+    color:
+    #FF7676;
+}
+.wrapper__item--color1{
+    color:#8FFFBE;
+}
+.box__right{
+    .box__wrapper:hover{
+        background-color: 
+        #4610AD;
+        margin-left: -80px;
+       margin-right: 40px;
+        border-radius: 15px;
+    }
+}
+// =========
+
+// start mining
+.start__mining{
+    background: linear-gradient(rgb(43, 7, 110) 0%, rgb(13, 13, 43) 100%);
+    padding: 70px 0px
+}
+.mining__box{
+    h3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 150%;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        
+    }
+    P{
+        margin-top: 20px;
+        width: 348px;
+        height: 56px;;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;        
+        mix-blend-mode: normal;
+        
+    }
+    @include d-flex;
+    height: 175px;
+    background-color: rgb(54, 113, 233);
+    margin-top: 30px;
+    position: relative;
+    padding: 20px 30px;
+    border-radius: 16px;
+    .bacimg{
+        position: absolute;
+        top:0;
+    }
+}
+.box__flex{
+    @include d-flex;
+}
+.mining__righet{
+    .mining__input{
+            border: none;
+            border-bottom:1px solid rgba(255, 255, 255, 0.4);
+            width: 400px;
+            background-color:rgb(54, 113, 233);
+            padding-bottom: 10px;
+
+    }
+    input::placeholder{
+        
+        color: white;
+       
+    }
+
+    .btn3{
+        padding: 14px 32px;
+        width: 152px;
+        height: 55px;
+        background: #FFFFFF;
+        border-radius: 32px;
+        border: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        color: #0D0D2B;
+        margin-left: 10px;
+    }  
+}

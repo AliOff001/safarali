@@ -1,0 +1,61 @@
+footer{
+    background-color:#0D0D2B;
+
+  
+}
+.footer__hero{
+    @include d-flex;
+
+        .footerLogo{
+            margin-bottom: 60px;
+            
+            img{
+                margin-bottom: 113px;
+            }
+        }
+}
+
+    .ul-list{
+        b{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+             line-height: 150%;
+             color: #FFFFFF;
+             mix-blend-mode: normal;
+        }
+       .links{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 38px;
+        color: #F2F2F2;
+       } 
+}
+.footer__karta{
+    .footer__title{
+        width: 200px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 38px;
+        color: #F2F2F2;
+        
+        mix-blend-mode: normal;
+        
+    }
+}
+.footer__end {
+    @include d-flex;
+    margin-top: 120px;
+    p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+    }
+}
+
